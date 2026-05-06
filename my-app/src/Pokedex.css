@@ -46,7 +46,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Type-based badge backgrounds */
+
 .type-badge.type-grass {
   background: #78c850;
 }
@@ -119,7 +119,7 @@
   background: #a8a878;
 }
 
-/* Type-based image container backgrounds */
+
 .pokemon-card.type-grass .image-container {
   background-color: #78c850;
 }
@@ -192,7 +192,7 @@
   background-color: #a8a878;
 }
 
-/* Left Side - Image */
+
 .pokemon-image-section {
   display: flex;
   align-items: center;
@@ -216,7 +216,7 @@
   object-fit: contain;
 }
 
-/* Right Side - Details */
+
 .pokemon-details-section {
   display: flex;
   flex-direction: column;
@@ -361,7 +361,7 @@
   letter-spacing: 2px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .pokemon-card {
     grid-template-columns: 1fr;
